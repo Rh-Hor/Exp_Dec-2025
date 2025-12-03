@@ -6,7 +6,7 @@ var aj = "AcceptabilityJudgment";
 
 var q = "Question";
 
-var completionMessage = "[Zadané odpovědi jsou odeslány na server. Děkujeme za spolupráci!]";
+var completionMessage = "[Zadané odpovědi byly odeslány na server. Děkujeme za spolupráci!]";
 
 var ms = "Message";
 
@@ -17,7 +17,7 @@ var defaults = [
 		 },
     "AcceptabilityJudgment", { as: ["1", "2", "3", "4", "5"],
                                presentAsScale: true,
-                               leftComment: "(absolutně nepřijatelná věta)", rightComment: "(věta je naprosto v pořádku)" },
+                               leftComment: "(nepřijatelná věta)", rightComment: "(věta je naprosto v pořádku)" },
     "Message", { hideProgressBar: true, transfer: "click" }
 ];
 
@@ -41,14 +41,97 @@ var items = [ ["sep", "Separator", { }],
 [["first-item2-acc-most", 2], aj, {s: "Většina zákaznic se sebemenší alergií na odlakovač musela ze salonu preventivně odejít."}],
 [["first-item2-acc-some", 2], aj, {s: "Některé zákaznice se sebemenší alergií na odlakovač musely ze salonu preventivně odejít."}],
 
-[["first-item3-acc-all", 3], aj, {s: "Všichni občané se sebemenší vírou v Boha chtěli nalezenému dítěti naplánovat křest."}],
-[["first-item3-acc-most", 3], aj, {s: "Většina občanů se sebemenší vírou v Boha chtěla nalezenému dítěti naplánovat křest."}],
-[["first-item3-acc-some", 3], aj, {s: "Někteří občané se sebemenší vírou v Boha chtěli nalezenému dítěti naplánovat křest."}],
+[["first-item3-acc-all", 3], aj, {s: "Všichni občané se sebemenší vírou v Boha chtěli nalezenému dítěti vystrojit křest."}],
+[["first-item3-acc-most", 3], aj, {s: "Většina občanů se sebemenší vírou v Boha chtěla nalezenému dítěti vystrojit křest."}],
+[["first-item3-acc-some", 3], aj, {s: "Někteří občané se sebemenší vírou v Boha chtěli nalezenému dítěti vystrojit křest."}],
 
+[["first-item4-acc-all", 4], aj, {s: "Všechny krávy se sebemenším podezřením na slintavku dostaly kvůli nařízení smrtící ránu."}],
+[["first-item4-acc-most", 4], aj, {s: "Většina krav se sebemenším podezřením na slintavku dostala kvůli nařízení smrtící ránu."}],
+[["first-item4-acc-some", 4], aj, {s: "Některé krávy se sebemenším podezřením na slintavku dostaly kvůli nařízení smrtící ránu."}],
+
+[["first-item5-acc-all", 5], aj, {s: "Všichni starostové se sebemenším obviněním z korupce popřeli důrazně existenci své viny."}],
+[["first-item5-acc-most", 5], aj, {s: "Většina starostů se sebemenším obviněním z korupce popřela důrazně existenci své viny."}],
+[["first-item5-acc-some", 5], aj, {s: "Někteří starostové se sebemenším obviněním z korupce popřeli důrazně existenci své viny."}],
+
+[["first-item6-acc-all", 6], aj, {s: "Všechny matky se sebemenším problémem s drogami podstoupily velmi přísnou inspekci domácnosti."}],
+[["first-item6-acc-most", 6], aj, {s: "Většina matek se sebemenším problémem s drogami podstoupila velmi přísnou inspekci domácnosti."}],
+[["first-item6-acc-some", 6], aj, {s: "Některé matky se sebemenším problémem s drogami podstoupily velmi přísnou inspekci domácnosti."}],
+
+[["first-item7-acc-all", 7], aj, {s: "Všechny produkty se sebemenší závadou na obalu selhaly v testu zdravotní bezpečnosti."}],
+[["first-item7-acc-most", 7], aj, {s: "Většina produktů se sebemenší závadou na obalu selhala v testu zdravotní bezpečnosti."}],
+[["first-item7-acc-some", 7], aj, {s: "Některé produkty se sebemenší závadou na obalu selhaly v testu zdravotní bezpečnosti."}],
+
+[["first-item8-acc-all", 8], aj, {s: "Všechna koťata se sebemenším flíčkem na zádech vzešla z našeho skvrnitého kocoura."}],
+[["first-item8-acc-most", 8], aj, {s: "Většina koťat se sebemenším flíčkem na zádech vzešla z našeho skvrnitého kocoura."}],
+[["first-item8-acc-some", 8], aj, {s: "Některá koťata se sebemenším flíčkem na zádech vzešla z našeho skvrnitého kocoura."}],
+
+[["first-item9-acc-all", 9], aj, {s: "Všechny domy se sebemenší nerovností ve zdech riskovaly poškození v případě vichřice."}],
+[["first-item9-acc-most", 9], aj, {s: "Většina domů se sebemenší nerovností ve zdech riskovala poškození v případě vichřice."}],
+[["first-item9-acc-some", 9], aj, {s: "Některé domy se sebemenší nerovností ve zdech riskovaly poškození v případě vichřice."}],
+
+[["first-item10-acc-all", 10], aj, {s: "Všechna hnutí se sebemenší inklinaci ke komunismu čelila odsouzení ze strany společnosti."}],
+[["first-item10-acc-most", 10], aj, {s: "Většina hnutí se sebemenší inklinaci ke komunismu čelila odsouzení ze strany společnosti."}],
+[["first-item10-acc-some", 10], aj, {s: "Některá hnutí se sebemenší inklinaci ke komunismu čelila odsouzení ze strany společnosti."}],
+
+[["first-item11-acc-all", 11], aj, {s: "Všechny ústavy se sebemenším rozpočtem na výzkum vykázaly mnoho objevů a publikací."}],
+[["first-item11-acc-most", 11], aj, {s: "Většina ústavů se sebemenším rozpočtem na výzkum vykázala mnoho objevů a publikací."}],
+[["first-item11-acc-some", 11], aj, {s: "Některé ústavy se sebemenším rozpočtem na výzkum vykázaly mnoho objevů a publikací."}],
+
+[["first-item12-acc-all", 12], aj, {s: "Všechna vysvětlení se sebemenší nejistotou v hlase působila na tazatele příliš podezřele."}],
+[["first-item12-acc-most", 12], aj, {s: "Většina vysvětlení se sebemenší nejistotou v hlase působila na tazatele příliš podezřele."}],
+[["first-item+12-acc-some", 12], aj, {s: "Některá vysvětlení se sebemenší nejistotou v hlase působila na tazatele příliš podezřele."}],
+
+[["first-item13-acc-all", 13], aj, {s: "Všechna hnutí se sebemenší inklinaci ke komunismu čelila odsouzení ze strany společnosti."}],
+[["first-item13-acc-most", 13], aj, {s: "Většina hnutí se sebemenší inklinaci ke komunismu čelila odsouzení ze strany společnosti."}],
+[["first-item13-acc-some", 13], aj, {s: "Některá hnutí se sebemenší inklinaci ke komunismu čelila odsouzení ze strany společnosti."}],
+
+[["first-item14-acc-all", 14], aj, {s: "Všechny ústavy se sebemenším rozpočtem na výzkum vykázaly mnoho objevů a publikací."}],
+[["first-item14-acc-most", 14], aj, {s: "Většina ústavů se sebemenším rozpočtem na výzkum vykázala mnoho objevů a publikací."}],
+[["first-item14-acc-some", 14], aj, {s: "Některé ústavy se sebemenším rozpočtem na výzkum vykázaly mnoho objevů a publikací."}],
+
+[["first-item15-acc-all", 15], aj, {s: "Všechna vysvětlení se sebemenší nejistotou v hlase působila na tazatele příliš podezřele."}],
+[["first-item15-acc-most", 15], aj, {s: "Většina vysvětlení se sebemenší nejistotou v hlase působila na tazatele příliš podezřele."}],
+[["first-item+15-acc-some", 15], aj, {s: "Některá vysvětlení se sebemenší nejistotou v hlase působila na tazatele příliš podezřele."}],
+
+[["first-item10-acc-all", 10], aj, {s: "Všechna hnutí se sebemenší inklinaci ke komunismu čelila předsudkům ze strany společnosti."}],
+[["first-item10-acc-most", 10], aj, {s: "Většina hnutí se sebemenší inklinaci ke komunismu čelila předsudkům ze strany společnosti."}],
+[["first-item10-acc-some", 10], aj, {s: "Některá hnutí se sebemenší inklinaci ke komunismu čelila předsudkům ze strany společnosti."}],
+
+[["first-item11-acc-all", 11], aj, {s: "Všechny ústavy se sebemenším rozpočtem na výzkum vykázaly mnoho objevů a publikací."}],
+[["first-item11-acc-most", 11], aj, {s: "Většina ústavů se sebemenším rozpočtem na výzkum vykázala mnoho objevů a publikací."}],
+[["first-item11-acc-some", 11], aj, {s: "Některé ústavy se sebemenším rozpočtem na výzkum vykázaly mnoho objevů a publikací."}],
+
+[["first-item12-acc-all", 12], aj, {s: "Všichni zemědělci se sebemenší újmou na úrodě vybíjeli sarančata zakázanými chemickými látkami."}],
+[["first-item12-acc-most", 12], aj, {s: "Většina zemědělců se sebemenší újmou na úrodě vybíjela sarančata zakázanými chemickými látkami."}],
+[["first-item12-acc-some", 12], aj, {s: "Někteří zemědělci se sebemenší újmou na úrodě vybíjeli sarančata zakázanými chemickými látkami."}],
+
+[["first-item13-acc-all", 13], aj, {s: "Všichni spisovatelé se sebemenším sledováním na sítích dorazili na veletrh krásné literatury."}],
+[["first-item13-acc-most", 13], aj, {s: "Většina spisovatelů se sebemenším sledováním na sítích dorazila na veletrh krásné literatury."}],
+[["first-item13-acc-some", 13], aj, {s: "Někteří spisovatelé se sebemenším sledováním na sítích dorazili na veletrh krásné literatury."}],
+
+[["first-item14-acc-all", 14], aj, {s: "Všechny ústavy se sebemenším rozpočtem na výzkum vykázaly mnoho objevů a publikací."}],
+[["first-item14-acc-most", 14], aj, {s: "Většina ústavů se sebemenším rozpočtem na výzkum vykázala mnoho objevů a publikací."}],
+[["first-item14-acc-some", 14], aj, {s: "Některé ústavy se sebemenším rozpočtem na výzkum vykázaly mnoho objevů a publikací."}],
+
+[["first-item15-acc-all", 15], aj, {s: "Všechny herečky se sebemenším talentem na zpěv toužily získat muzikálovou roli."}],
+[["first-item15-acc-most", 15], aj, {s: "Většina hereček se sebemenším talentem na zpěv toužila získat muzikálovou roli."}],
+[["first-item15-acc-some", 15], aj, {s: "Některé herečky se sebemenším talentem na zpěv toužily získat muzikálovou roli."}],
+
+[["first-item16-acc-all", 16], aj, {s: "Všechny političky se sebemenším zájmem o rovnoprávnost prosazovaly potrestání jedné konkrétní osoby."}],
+[["first-item16-acc-most", 16], aj, {s: "Většina političek se sebemenším zájmem o rovnoprávnost prosazovala potrestání jedné konkrétní osoby."}],
+[["first-item16-acc-some", 16], aj, {s: "Některé političky se sebemenším zájmem o rovnoprávnost prosazovaly potrestání jedné konkrétní osoby."}],
+
+[["first-item17-acc-all", 17], aj, {s: "Všechna děvčata se sebemenší bolestí v srdci zkusila někdy napsat dojemnou báseň."}],
+[["first-item17-acc-most", 17], aj, {s: "Většina děvčat se sebemenší bolestí v srdci zkusila někdy napsat dojemnou báseň."}],
+[["first-item17-acc-some", 17], aj, {s: "Některá děvčata se sebemenší bolestí v srdci zkusila někdy napsat dojemnou báseň."}],
+
+[["first-item18-acc-all", 18], aj, {s: "Všechny děti se sebemenší úctou k seniorům navštívily během prázdnin domov důchodců."}],
+[["first-item18-acc-most", 18], aj, {s: "Většina dětí se sebemenší úctou k seniorům navštívila během prázdnin domov důchodců."}],
+[["first-item+18-acc-some", 18], aj, {s: "Některé děti se sebemenší úctou k seniorům navštívily během prázdnin domov důchodců."}],
 
 
 ["firstfiller1", aj, {s: "Já, starý sadař nejsem přišel do lesa celé roky." }],
-["firstfiller_item2", aj, {s: "Já, starý sadař, jsem nepřišel do lesa celé roky." }],
+["firstfiller2", aj, {s: "Já, starý sadař, jsem nepřišel do lesa celé roky." }],
 
 ["practice-two-before", "Message", {continueMessage: "Klikněte zde pro pokračování experimentu", html: ["div", ["p", "Zde končí první část experimentu. Klikněte níže pro vysvětlení druhé části experimentu."]]}],
 
