@@ -141,6 +141,12 @@ var items = [ ["sep", "Separator", { }],
 ["first-filler10-bad", aj, {s: "Až mi ten dokument vytiskl, tak mi ji prosím polož na ten nejmenší stůl." }],
 ["first-filler11-bad", aj, {s: "Žádný malíř bude hladovět, pokud si každá domácnost koupí dva obrazy." }],
 ["first-filler12-bad", aj, {s: "Rostliny s dlouhými kořeny sobě špatně vykopávají ze země." }],
+["first-filler13-good", aj, {s: "DOBRÝFILLER" }],
+["first-filler14-good", aj, {s: "DOBRÝFILLER"}],
+["first-filler15-good", aj, {s: "DOBRÝFILLER" }],
+["first-filler16-bad", aj, {s: "BLBÝFILLER" }],
+["first-filler17-bad", aj, {s: "BLBÝFILLER"}],
+["first-filler18-bad", aj, {s: "BLBÝFILLER" }],
 
 ["practice-two-before", "Message", {continueMessage: "Klikněte zde pro pokračování experimentu", html: ["div", ["p", "Zde končí první část experimentu. Klikněte níže pro vysvětlení druhé části experimentu."]]}],
 
