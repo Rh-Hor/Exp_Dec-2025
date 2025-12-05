@@ -20,7 +20,7 @@ var defaults = [
     "AcceptabilityJudgment", { as: ["1", "2", "3", "4", "5"],
                                presentAsScale: true,
                                leftComment: "(nepřijatelná věta)", rightComment: "(věta je naprosto v pořádku)" },
-    "TwoValueJudgment", { as: ["Pravdivost prvn věty zaručuje pravdivost druhé věty", "Pravdivost první věty nezaručuje pravdivost druhé věty"]},
+    "TwoValueJudgment", { as: ["Pravdivost prvn věty zaručuje pravdivost druhé věty", "Pravdivost první věty nezaručuje pravdivost druhé věty"], presentAsScale: false, leftComment: null, rightComment: null },
     "Message", { hideProgressBar: true, transfer: "click" }
 ];
 
