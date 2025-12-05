@@ -1,7 +1,7 @@
 /*var shuffleSequence = seq("intro", sepWith("sep",  seq("practice")), "practiceover", sepWith("sep", rshuffle(startsWith("first-item"), startsWith("first-filler"))), "practice-two-before", seq("practice-two"), "practice-two-over", sepWith("sep", rshuffle(startsWith("second-item"), startsWith("second-filler"))));
 */
 
-var shuffleSequence = seq("intro", sepWith("sep",  seq("practice")), "practiceover", sepWith("sep", rshuffle(startsWith("first-item"), startsWith("first-filler"))), "practice-two-before", seq("practice-two"), "practice-two-over", startsWith("second-item"))
+var shuffleSequence = seq("intro", sepWith("sep",  seq("practice")), "practiceover", sepWith("sep", rshuffle(startsWith("first-item"), startsWith("first-filler"))), "practice-two-before", seq("practice-two"), "practice-two-over", startsWith("followup-item"))
 
 var continueMessage = ["Klikni zde"];
 
@@ -160,6 +160,8 @@ var items = [ ["sep", "Separator", { }],
 ["practice-two", aj, {s: {html: "<center><table><table cellspacing=100><tr><td><img style=\"display:block;max-width:450px;max-height:450px;width: auto;height: auto;\" src=\"https://github.com/MojmirDocekal/jan_2019_brn_vie/blob/master/3_d.jpg?raw=true\"></td><td><img style=\"display:block;max-width:610px;max-height:610px;width: auto;height: auto;\" src=\"https://github.com/MojmirDocekal/jan_2019_brn_vie/blob/master/3_d_f.jpg?raw=true\"></td></table></center>Kontext: Alena přišla navštívit svoji sestru Mariku. Alena byla celý týden na dovolené, a proto jí uniklo několik dílů oblíbeného detektivního seriálu. Marika jí proto stručně vylíčila, co se tam odehrálo.</p><center><p>Boris se dívá na boxy a říká: <i>Marika řekla, že policista Jan zatkl dva zloděje. </i></p></p>Věta je sice adekvátní vůči kontextu, ale ani jeden obrázek dané větě neodpovídá. Levý obrázek větě neodpovídá, protože jsou na něm dva policisté a každý z nich zatkl dva zloděje. Vyslovená věta ovšem zmiňuje pouze jednoho policistu. Pravý obrázek také neodpovídá, protože jsou na něm dva policisté a každý z nich zatkl jednoho zloděje. Ani jeden obrázek tedy neodpovídá větě. Zvolte možnost <i>ani jeden</i>.</center>"}, hasCorrect: 1}],             
 
           ["practice-two-over", "Message", {continueMessage: "Klikněte zde pro pokračování experimentu", html: ["div", ["p", "Zde končí přípravná část experimentu. Klikněte níže pro vstup do experimentu."]]}],
+
+[["followup-item41-NR", 41], aj, {s: {html: "<p>Nový bača v Tatrách nechce, aby se ztratila jediná ovce.</p><p>Nový bača v Tatrách chce, aby se neztratila jediná ovce.</p>"}, as: ["Druhá věta vyplývá z první", "Druhá věta nevyplývá z první"], presentAsScale: false, leftComment: null, rightComment: null}],
 
 [["second-item1-UE-all", 1], aj, {s: {html: "<center><table><table cellspacing=100><tr><td><img style=\"display:block;max-width:700px;max-height:700px;width: auto;height: auto;\" src=\"https://github.com/Rh-Hor/Exp_Dec-2025/blob/main/data_includes/1-all.png?raw=true\"></td></table></center> Kontext: Lorem Ipsum </p><center><p>Boris se dívá na boxy a říká:</p> 1. <i>Všechny trojúhelníky jsou v levém boxu.</i></p></p>Z Borisova pozorování plyne, že:<p> 2. <i>všechny červené trojúhelníky jsou v levém boxu.</i></p> </center>"}, as: ["Pravdivost Borisovy první věty zaručuje pravdivost druhé věty", "Pravdivost Borisovy první věty nezaručuje pravdivost druhé věty."], presentAsScale: false, leftComment: null, rightComment: null}],
 
