@@ -33,120 +33,77 @@ var items = [ ["sep", "Separator", { }],
 
 	      ["practiceover", "Message", {continueMessage: "Klikněte zde pro pokračování experimentu", html: ["div", ["p", "Zde končí přípravná část experimentu. Klikněte níže pro vstup do experimentu."]]}],
 
-[["first-item1-acc-all", 1], aj, {s: "Všichni návštěvníci se sebemenším zájmem o archeologii zvládli tento exponát hned poznat."}],
-[["first-item1-acc-most", 1], aj, {s: "Většina návštěvníků se sebemenším zájmem o archeologii zvládla tento exponát hned poznat."}],
-[["first-item1-acc-some", 1], aj, {s: "Někteří návštěvníci se sebemenším zájmem o archeologii zvládli tento exponát hned poznat."}],
+[["first-item01-acc-all", 1], aj, {s: "Všichni návštěvníci se sebemenším zájmem o archeologii zvládli tento exponát hned poznat."}],
+[["first-item01-acc-most", 1], aj, {s: "Většina návštěvníků se sebemenším zájmem o archeologii zvládla tento exponát hned poznat."}],
+[["first-item01-acc-some", 1], aj, {s: "Někteří návštěvníci se sebemenším zájmem o archeologii zvládli tento exponát hned poznat."}],
 
-[["first-item2-acc-all", 2], aj, {s: "Všechny zákaznice se sebemenší alergií na odlakovač musely ze salonu preventivně odejít."}],
-[["first-item2-acc-most", 2], aj, {s: "Většina zákaznic se sebemenší alergií na odlakovač musela ze salonu preventivně odejít."}],
-[["first-item2-acc-some", 2], aj, {s: "Některé zákaznice se sebemenší alergií na odlakovač musely ze salonu preventivně odejít."}],
+[["first-item02-acc-all", 2], aj, {s: "Všechny zákaznice se sebemenší alergií na odlakovač musely ze salonu preventivně odejít."}],
+[["first-item02-acc-most", 2], aj, {s: "Většina zákaznic se sebemenší alergií na odlakovač musela ze salonu preventivně odejít."}],
+[["first-item02-acc-some", 2], aj, {s: "Některé zákaznice se sebemenší alergií na odlakovač musely ze salonu preventivně odejít."}],
 
-[["first-item3-acc-all", 3], aj, {s: "Všichni občané se sebemenší vírou v Boha chtěli nalezenému dítěti vystrojit křest."}],
-[["first-item3-acc-most", 3], aj, {s: "Většina občanů se sebemenší vírou v Boha chtěla nalezenému dítěti vystrojit křest."}],
-[["first-item3-acc-some", 3], aj, {s: "Někteří občané se sebemenší vírou v Boha chtěli nalezenému dítěti vystrojit křest."}],
+[["first-item03-acc-all", 3], aj, {s: "Všichni občané se sebemenší vírou v Boha chtěli nalezenému dítěti vystrojit křest."}],
+[["first-item03-acc-most", 3], aj, {s: "Většina občanů se sebemenší vírou v Boha chtěla nalezenému dítěti vystrojit křest."}],
+[["first-item03-acc-some", 3], aj, {s: "Někteří občané se sebemenší vírou v Boha chtěli nalezenému dítěti vystrojit křest."}],
 
-[["first-item4-acc-all", 4], aj, {s: "Všechny krávy se sebemenším podezřením na slintavku dostaly kvůli nařízení smrtící ránu."}],
-[["first-item4-acc-most", 4], aj, {s: "Většina krav se sebemenším podezřením na slintavku dostala kvůli nařízení smrtící ránu."}],
-[["first-item4-acc-some", 4], aj, {s: "Některé krávy se sebemenším podezřením na slintavku dostaly kvůli nařízení smrtící ránu."}],
+[["first-item04-acc-all", 4], aj, {s: "Všechny krávy se sebemenším podezřením na slintavku dostaly kvůli nařízení smrtící ránu."}],
+[["first-item04-acc-most", 4], aj, {s: "Většina krav se sebemenším podezřením na slintavku dostala kvůli nařízení smrtící ránu."}],
+[["first-item04-acc-some", 4], aj, {s: "Některé krávy se sebemenším podezřením na slintavku dostaly kvůli nařízení smrtící ránu."}],
 
-[["first-item5-acc-all", 5], aj, {s: "Všichni starostové se sebemenším obviněním z korupce popřeli důrazně existenci své viny."}],
-[["first-item5-acc-most", 5], aj, {s: "Většina starostů se sebemenším obviněním z korupce popřela důrazně existenci své viny."}],
-[["first-item5-acc-some", 5], aj, {s: "Někteří starostové se sebemenším obviněním z korupce popřeli důrazně existenci své viny."}],
+[["first-item05-acc-all", 6], aj, {s: "Všechny matky se sebemenším problémem s drogami podstoupily velmi přísnou inspekci domácnosti."}],
+[["first-item05-acc-most", 6], aj, {s: "Většina matek se sebemenším problémem s drogami podstoupila velmi přísnou inspekci domácnosti."}],
+[["first-item05-acc-some", 6], aj, {s: "Některé matky se sebemenším problémem s drogami podstoupily velmi přísnou inspekci domácnosti."}],
 
-[["first-item6-acc-all", 6], aj, {s: "Všechny matky se sebemenším problémem s drogami podstoupily velmi přísnou inspekci domácnosti."}],
-[["first-item6-acc-most", 6], aj, {s: "Většina matek se sebemenším problémem s drogami podstoupila velmi přísnou inspekci domácnosti."}],
-[["first-item6-acc-some", 6], aj, {s: "Některé matky se sebemenším problémem s drogami podstoupily velmi přísnou inspekci domácnosti."}],
+[["first-item06-acc-all", 7], aj, {s: "Všechny produkty se sebemenší závadou na obalu selhaly v testu zdravotní bezpečnosti."}],
+[["first-item06-acc-most", 7], aj, {s: "Většina produktů se sebemenší závadou na obalu selhala v testu zdravotní bezpečnosti."}],
+[["first-item06-acc-some", 7], aj, {s: "Některé produkty se sebemenší závadou na obalu selhaly v testu zdravotní bezpečnosti."}],
 
-[["first-item7-acc-all", 7], aj, {s: "Všechny produkty se sebemenší závadou na obalu selhaly v testu zdravotní bezpečnosti."}],
-[["first-item7-acc-most", 7], aj, {s: "Většina produktů se sebemenší závadou na obalu selhala v testu zdravotní bezpečnosti."}],
-[["first-item7-acc-some", 7], aj, {s: "Některé produkty se sebemenší závadou na obalu selhaly v testu zdravotní bezpečnosti."}],
+[["first-item07-acc-all", 9], aj, {s: "Všechny domy se sebemenší nerovností ve zdech riskovaly poškození v případě vichřice."}],
+[["first-item07-acc-most", 9], aj, {s: "Většina domů se sebemenší nerovností ve zdech riskovala poškození v případě vichřice."}],
+[["first-item07-acc-some", 9], aj, {s: "Některé domy se sebemenší nerovností ve zdech riskovaly poškození v případě vichřice."}],
 
-[["first-item8-acc-all", 8], aj, {s: "Všechna koťata se sebemenším flíčkem na zádech vzešla z našeho skvrnitého kocoura."}],
-[["first-item8-acc-most", 8], aj, {s: "Většina koťat se sebemenším flíčkem na zádech vzešla z našeho skvrnitého kocoura."}],
-[["first-item8-acc-some", 8], aj, {s: "Některá koťata se sebemenším flíčkem na zádech vzešla z našeho skvrnitého kocoura."}],
+[["first-item08-acc-all", 13], aj, {s: "Všechna hnutí se sebemenší inklinací ke komunismu čelila odsouzení ze strany společnosti."}],
+[["first-item08-acc-most", 13], aj, {s: "Většina hnutí se sebemenší inklinací ke komunismu čelila odsouzení ze strany společnosti."}],
+[["first-item08-acc-some", 13], aj, {s: "Některá hnutí se sebemenší inklinací ke komunismu čelila odsouzení ze strany společnosti."}],
 
-[["first-item9-acc-all", 9], aj, {s: "Všechny domy se sebemenší nerovností ve zdech riskovaly poškození v případě vichřice."}],
-[["first-item9-acc-most", 9], aj, {s: "Většina domů se sebemenší nerovností ve zdech riskovala poškození v případě vichřice."}],
-[["first-item9-acc-some", 9], aj, {s: "Některé domy se sebemenší nerovností ve zdech riskovaly poškození v případě vichřice."}],
+[["first-item09-acc-all", 17], aj, {s: "Všechna děvčata se sebemenší bolestí v srdci zkusila někdy napsat dojemnou báseň."}],
+[["first-item09-acc-most", 17], aj, {s: "Většina děvčat se sebemenší bolestí v srdci zkusila někdy napsat dojemnou báseň."}],
+[["first-item09-acc-some", 17], aj, {s: "Některá děvčata se sebemenší bolestí v srdci zkusila někdy napsat dojemnou báseň."}],
 
-[["first-item10-acc-all", 10], aj, {s: "Všechna hnutí se sebemenší inklinací ke komunismu čelila odsouzení ze strany společnosti."}],
-[["first-item10-acc-most", 10], aj, {s: "Většina hnutí se sebemenší inklinací ke komunismu čelila odsouzení ze strany společnosti."}],
-[["first-item10-acc-some", 10], aj, {s: "Některá hnutí se sebemenší inklinací ke komunismu čelila odsouzení ze strany společnosti."}],
-
-[["first-item11-acc-all", 11], aj, {s: "Všechny ústavy se sebemenším rozpočtem na výzkum vykázaly mnoho objevů a publikací."}],
-[["first-item11-acc-most", 11], aj, {s: "Většina ústavů se sebemenším rozpočtem na výzkum vykázala mnoho objevů a publikací."}],
-[["first-item11-acc-some", 11], aj, {s: "Některé ústavy se sebemenším rozpočtem na výzkum vykázaly mnoho objevů a publikací."}],
-
-[["first-item12-acc-all", 12], aj, {s: "Všechna vysvětlení se sebemenší nejistotou v hlase působila na tazatele příliš podezřele."}],
-[["first-item12-acc-most", 12], aj, {s: "Většina vysvětlení se sebemenší nejistotou v hlase působila na tazatele příliš podezřele."}],
-[["first-item12-acc-some", 12], aj, {s: "Některá vysvětlení se sebemenší nejistotou v hlase působila na tazatele příliš podezřele."}],
-
-[["first-item13-acc-all", 13], aj, {s: "Všechna hnutí se sebemenší inklinací ke komunismu čelila odsouzení ze strany společnosti."}],
-[["first-item13-acc-most", 13], aj, {s: "Většina hnutí se sebemenší inklinací ke komunismu čelila odsouzení ze strany společnosti."}],
-[["first-item13-acc-some", 13], aj, {s: "Některá hnutí se sebemenší inklinací ke komunismu čelila odsouzení ze strany společnosti."}],
-
-[["first-item14-acc-all", 14], aj, {s: "Všechny ústavy se sebemenším rozpočtem na výzkum vykázaly mnoho objevů a publikací."}],
-[["first-item14-acc-most", 14], aj, {s: "Většina ústavů se sebemenším rozpočtem na výzkum vykázala mnoho objevů a publikací."}],
-[["first-item14-acc-some", 14], aj, {s: "Některé ústavy se sebemenším rozpočtem na výzkum vykázaly mnoho objevů a publikací."}],
+/* vyhozeno:
+[["first-item16-acc-all", 16], aj, {s: "Všechny političky se sebemenším zájmem o rovnoprávnost prosazovaly potrestání jedné konkrétní osoby."}],
+[["first-item16-acc-most", 16], aj, {s: "Většina političek se sebemenším zájmem o rovnoprávnost prosazovala potrestání jedné konkrétní osoby."}],
+[["first-item16-acc-some", 16], aj, {s: "Některé političky se sebemenším zájmem o rovnoprávnost prosazovaly potrestání jedné konkrétní osoby."}],
 
 [["first-item15-acc-all", 15], aj, {s: "Všechna vysvětlení se sebemenší nejistotou v hlase působila na tazatele příliš podezřele."}],
 [["first-item15-acc-most", 15], aj, {s: "Většina vysvětlení se sebemenší nejistotou v hlase působila na tazatele příliš podezřele."}],
 [["first-item15-acc-some", 15], aj, {s: "Některá vysvětlení se sebemenší nejistotou v hlase působila na tazatele příliš podezřele."}],
 
-[["first-item10-acc-all", 10], aj, {s: "Všechna hnutí se sebemenší inklinaci ke komunismu čelila předsudkům ze strany společnosti."}],
-[["first-item10-acc-most", 10], aj, {s: "Většina hnutí se sebemenší inklinaci ke komunismu čelila předsudkům ze strany společnosti."}],
-[["first-item10-acc-some", 10], aj, {s: "Některá hnutí se sebemenší inklinaci ke komunismu čelila předsudkům ze strany společnosti."}],
-
-[["first-item11-acc-all", 11], aj, {s: "Všechny ústavy se sebemenším rozpočtem na výzkum vykázaly mnoho objevů a publikací."}],
-[["first-item11-acc-most", 11], aj, {s: "Většina ústavů se sebemenším rozpočtem na výzkum vykázala mnoho objevů a publikací."}],
-[["first-item11-acc-some", 11], aj, {s: "Některé ústavy se sebemenším rozpočtem na výzkum vykázaly mnoho objevů a publikací."}],
-
-[["first-item12-acc-all", 12], aj, {s: "Všichni zemědělci se sebemenší újmou na úrodě vybíjeli sarančata zakázanými chemickými látkami."}],
-[["first-item12-acc-most", 12], aj, {s: "Většina zemědělců se sebemenší újmou na úrodě vybíjela sarančata zakázanými chemickými látkami."}],
-[["first-item12-acc-some", 12], aj, {s: "Někteří zemědělci se sebemenší újmou na úrodě vybíjeli sarančata zakázanými chemickými látkami."}],
-
-[["first-item13-acc-all", 13], aj, {s: "Všichni spisovatelé se sebemenším sledováním na sítích dorazili na veletrh krásné literatury."}],
-[["first-item13-acc-most", 13], aj, {s: "Většina spisovatelů se sebemenším sledováním na sítích dorazila na veletrh krásné literatury."}],
-[["first-item13-acc-some", 13], aj, {s: "Někteří spisovatelé se sebemenším sledováním na sítích dorazili na veletrh krásné literatury."}],
-
 [["first-item14-acc-all", 14], aj, {s: "Všechny ústavy se sebemenším rozpočtem na výzkum vykázaly mnoho objevů a publikací."}],
 [["first-item14-acc-most", 14], aj, {s: "Většina ústavů se sebemenším rozpočtem na výzkum vykázala mnoho objevů a publikací."}],
 [["first-item14-acc-some", 14], aj, {s: "Některé ústavy se sebemenším rozpočtem na výzkum vykázaly mnoho objevů a publikací."}],
 
-[["first-item15-acc-all", 15], aj, {s: "Všechny herečky se sebemenším talentem na zpěv toužily získat muzikálovou roli."}],
-[["first-item15-acc-most", 15], aj, {s: "Většina hereček se sebemenším talentem na zpěv toužila získat muzikálovou roli."}],
-[["first-item15-acc-some", 15], aj, {s: "Některé herečky se sebemenším talentem na zpěv toužily získat muzikálovou roli."}],
+[["first-item5-acc-all", 5], aj, {s: "Všichni starostové se sebemenším obviněním z korupce popřeli důrazně existenci své viny."}],
+[["first-item5-acc-most", 5], aj, {s: "Většina starostů se sebemenším obviněním z korupce popřela důrazně existenci své viny."}],
+[["first-item5-acc-some", 5], aj, {s: "Někteří starostové se sebemenším obviněním z korupce popřeli důrazně existenci své viny."}],
 
-[["first-item16-acc-all", 16], aj, {s: "Všechny političky se sebemenším zájmem o rovnoprávnost prosazovaly potrestání jedné konkrétní osoby."}],
-[["first-item16-acc-most", 16], aj, {s: "Většina političek se sebemenším zájmem o rovnoprávnost prosazovala potrestání jedné konkrétní osoby."}],
-[["first-item16-acc-some", 16], aj, {s: "Některé političky se sebemenším zájmem o rovnoprávnost prosazovaly potrestání jedné konkrétní osoby."}],
-
-[["first-item17-acc-all", 17], aj, {s: "Všechna děvčata se sebemenší bolestí v srdci zkusila někdy napsat dojemnou báseň."}],
-[["first-item17-acc-most", 17], aj, {s: "Většina děvčat se sebemenší bolestí v srdci zkusila někdy napsat dojemnou báseň."}],
-[["first-item17-acc-some", 17], aj, {s: "Některá děvčata se sebemenší bolestí v srdci zkusila někdy napsat dojemnou báseň."}],
+[["first-item8-acc-all", 8], aj, {s: "Všechna koťata se sebemenším flíčkem na zádech vzešla z našeho skvrnitého kocoura."}],
+[["first-item8-acc-most", 8], aj, {s: "Většina koťat se sebemenším flíčkem na zádech vzešla z našeho skvrnitého kocoura."}],
+[["first-item8-acc-some", 8], aj, {s: "Některá koťata se sebemenším flíčkem na zádech vzešla z našeho skvrnitého kocoura."}],
 
 [["first-item18-acc-all", 18], aj, {s: "Všechny děti se sebemenší úctou k seniorům navštívily během prázdnin domov důchodců."}],
 [["first-item18-acc-most", 18], aj, {s: "Většina dětí se sebemenší úctou k seniorům navštívila během prázdnin domov důchodců."}],
 [["first-item18-acc-some", 18], aj, {s: "Některé děti se sebemenší úctou k seniorům navštívily během prázdnin domov důchodců."}],
+*/
 
-["first-filler1-good", aj, {s: "Letošní pořadatelé festivalu počítali s menší účastí a proto snížili rozpočet." }],
-["first-filler2-good", aj, {s: "Chlapci stáli v pokoji, kde už se nacházela pouze skříň, a prohlíželi si popraskané stěny." }],
-["first-filler3-good", aj, {s: "Jeden soutěžící s nejvyšším počtem bodů vyhraje celou hru a získá zlatý pohár." }],
-["first-filler4-good", aj, {s: "Tento kurz, ve kterém uspělo padesát procent studentů, je nejtěžším kurzem v naší nabídce." }],
-["first-filler5-good", aj, {s: "Mnoho lidí, kteří přežili tragickou autonehodu, částečně přišlo o sluch."}],
-["first-filler6-good", aj, {s: "Všechny ženy, se kterými Naďa šla do čajovny, měly více či méně problematickou minulost." }],
-["first-filler7-bad", aj, {s: "Svoje domácí zmrzlina s trochou slaného karamelu je skvělý dezert na dnešní oběd." }],
-["first-filler8-bad", aj, {s: "Každý student, který nebyl zrovna u zkoušky, se sešel na náměstí Svobody." }],
-["first-filler9-bad", aj, {s: "Moje prababička, která už je velmi stará, si pamatuje, co jí nikdo řekne." }],
-["first-filler10-bad", aj, {s: "Až mi ten dokument vytiskl, tak mi ji prosím polož na ten nejmenší stůl." }],
-["first-filler11-bad", aj, {s: "Žádný malíř bude hladovět, pokud si každá domácnost koupí dva obrazy." }],
-["first-filler12-bad", aj, {s: "Rostliny s dlouhými kořeny sobě špatně vykopávají ze země." }],
-["first-filler13-good", aj, {s: "Podnikatelky s nadlidskou pílí dokázaly svoje firmy dostat na horní konec žebříčku." }],
-["first-filler14-good", aj, {s: "Dvě zvířata s trochou roztomilosti jsme si natočili a zbytek zvířat jsme ignorovali."}],
-["first-filler15-good", aj, {s: "Mnoho dětí na místní hřiště přestalo chodit už měsíc po jeho slavnostním otevření." }],
-["first-filler16-bad", aj, {s: "Krápník, který roste od země nahoru, sebe názvuje stalagmit." }],
-["first-filler17-bad", aj, {s: "Ten žádný balvan, který nám stojí v cestě, se nám podařilo odvalit a mohli jsme pokračovat."}],
-["first-filler18-bad", aj, {s: "Nejšikovnější dítě trenér pochlubil tím, že umí velmi dobře lyžovat." }],
+["first-filler01-good", aj, {s: "Jeden soutěžící s nejvyšším počtem bodů vyhraje celou hru a získá zlatý pohár." }],
+["first-filler02-good", aj, {s: "Podnikatelky s nadlidskou pílí dokázaly svoje firmy dostat na horní konec žebříčku." }],
+["first-filler03-good", aj, {s: "Dvě zvířata s trochou roztomilosti jsme si natočili a zbytek zvířat jsme ignorovali."}],
+["first-filler04-good", aj, {s: "Mnoho dětí na místní hřiště přestalo chodit už měsíc po jeho slavnostním otevření." }],
+["first-filler05-bad", aj, {s: "Svoje domácí zmrzlina s trochou slaného karamelu je skvělý dezert na dnešní oběd." }],
+["first-filler06-bad", aj, {s: "Moje prababička, která už je velmi stará, si pamatuje, co jí nikdo řekne." }],
+["first-filler07-bad", aj, {s: "Až mi ten dokument vytiskl, tak mi ji prosím polož na ten tmavý dřevěný stůl." }],
+["first-filler08-bad", aj, {s: "Rostliny s dlouhými kořeny sobě špatně vykopávají ze země." }],
+["first-filler09-bad", aj, {s: "Ten žádný balvan, který nám stojí v cestě, se nám podařilo odvalit a mohli jsme pokračovat."}],
 
 ["practice-two-before", "Message", {continueMessage: "Klikněte zde pro pokračování experimentu", html: ["div", ["p", "Zde končí první část experimentu. Klikněte níže pro vysvětlení druhé části experimentu."]]}],
 
@@ -247,11 +204,7 @@ var items = [ ["sep", "Separator", { }],
 ["second-filler-08bad", aj, {s: {html: "<b>Kontext:</b> Klára rozmístila tvary do obou boxů. Pak přichází Boris.<div style=\"text-align:center;\"><img style=\"display:block;max-width:400px;max-height:300px;width:auto;height:auto;margin:0 auto;\" src=\"https://github.com/Rh-Hor/Exp_Dec-2025/blob/main/8-mixed.png?raw=true\"></div><center>Boris se dívá na boxy a říká:</p> (<b>Věta A:</b>) <i>Aspoň polovina hvězd je v levém boxu.</i></p><p> </p> Boris pak přemýšlí, zda: <p> (<b>Věta B:</b>) <i>Všechny hvězdy jsou v pravém boxu.</i></p></center>"}, as: ["Pravdivost Borisovy věty A zaručuje pravdivost věty B", "Pravdivost Borisovy věty A nezaručuje pravdivost věty B."], presentAsScale: false, leftComment: null, rightComment: null}],
 ["second-filler-09bad", aj, {s: {html: "<b>Kontext:</b> Klára rozmístila tvary do obou boxů. Pak přichází Boris.<div style=\"text-align:center;\"><img style=\"display:block;max-width:400px;max-height:300px;width:auto;height:auto;margin:0 auto;\" src=\"https://github.com/Rh-Hor/Exp_Dec-2025/blob/main/9-mixed.png?raw=true\"></div><center>Boris se dívá na boxy a říká:</p> (<b>Věta A:</b>) <i>Aspoň polovina čtverců je v levém boxu.</i></p><p> </p> Boris pak přemýšlí, zda: <p> (<b>Věta B:</b>) <i>Přesně jeden zelený čtverec je v pravém boxu.</i></p></center>"}, as: ["Pravdivost Borisovy věty A zaručuje pravdivost věty B", "Pravdivost Borisovy věty A nezaručuje pravdivost věty B."], presentAsScale: false, leftComment: null, rightComment: null}],
 
-/*
-["second-filler10bad", aj, {s: {html: "<b>Kontext:</b> Klára rozmístila tvary do obou boxů. Pak přichází Boris.<div style=\"text-align:center;\"><img style=\"display:block;max-width:400px;max-height:300px;width:auto;height:auto;margin:0 auto;\" src=\"https://github.com/Rh-Hor/Exp_Dec-2025/blob/main/10-all.png?raw=true\"></div><center>Boris se dívá na boxy a říká:</p> (<b>Věta A:</b>) <i>Všechny kruhy jsou v levém boxu.</i></p><p> </p> Boris pak přemýšlí, zda: <p> (<b>Věta B:</b>) <i>V pravém boxu je více čtverců než v levém boxu.</i></p></center>"}, as: ["Pravdivost Borisovy věty A zaručuje pravdivost věty B", "Pravdivost Borisovy věty A nezaručuje pravdivost věty B."], presentAsScale: false, leftComment: null, rightComment: null}],
-["second-filler11bad", aj, {s: {html: "<b>Kontext:</b> Klára rozmístila tvary do obou boxů. Pak přichází Boris.<div style=\"text-align:center;\"><img style=\"display:block;max-width:400px;max-height:300px;width:auto;height:auto;margin:0 auto;\" src=\"https://github.com/Rh-Hor/Exp_Dec-2025/blob/main/11-most.png?raw=true\"></div><center>Boris se dívá na boxy a říká:</p> (<b>Věta A:</b>) <i>Většina obdélníků je v pravém boxu.</i></p><p> </p> Boris pak přemýšlí, zda: <p> (<b>Věta B:</b>) <i>Přesně dva obdélníky jsou v levém boxu.</i></p></center>"}, as: ["Pravdivost Borisovy věty A zaručuje pravdivost věty B", "Pravdivost Borisovy věty A nezaručuje pravdivost věty B."], presentAsScale: false, leftComment: null, rightComment: null}],
-["second-filler12bad", aj, {s: {html: "<b>Kontext:</b> Klára rozmístila tvary do obou boxů. Pak přichází Boris.<div style=\"text-align:center;\"><img style=\"display:block;max-width:400px;max-height:300px;width:auto;height:auto;margin:0 auto;\" src=\"https://github.com/Rh-Hor/Exp_Dec-2025/blob/main/12-some.png?raw=true\"></div><center>Boris se dívá na boxy a říká:</p> (<b>Věta A:</b>) <i>Některé hvězdy jsou v pravém boxu.</i></p><p> </p> Boris pak přemýšlí, zda: <p> (<b>Věta B:</b>) <i>Všechny zelené hvězdy jsou v pravém boxu.</i></p></center>"}, as: ["Pravdivost Borisovy věty A zaručuje pravdivost věty B", "Pravdivost Borisovy věty A nezaručuje pravdivost věty B."], presentAsScale: false, leftComment: null, rightComment: null}],
-*/
+
 ["second-filler-10good", aj, {s: {html: "<b>Kontext:</b> Klára rozmístila tvary do obou boxů. Pak přichází Boris.<div style=\"text-align:center;\"><img style=\"display:block;max-width:400px;max-height:300px;width:auto;height:auto;margin:0 auto;\" src=\"https://github.com/Rh-Hor/Exp_Dec-2025/blob/main/1-all.png?raw=true\"></div><center>Boris se dívá na boxy a říká:</p> (<b>Věta A:</b>) <i>Všechny trojúhelníky jsou v levém boxu.</i></p><p> </p> Boris pak přemýšlí, zda: <p> (<b>Věta B:</b>) <i>Některé trojúhelníky jsou v levém boxu.</i></p></center>"}, as: ["Pravdivost Borisovy věty A zaručuje pravdivost věty B", "Pravdivost Borisovy věty A nezaručuje pravdivost věty B."], presentAsScale: false, leftComment: null, rightComment: null}],
 ["second-filler-11good", aj, {s: {html: "<b>Kontext:</b> Klára rozmístila tvary do obou boxů. Pak přichází Boris.<div style=\"text-align:center;\"><img style=\"display:block;max-width:400px;max-height:300px;width:auto;height:auto;margin:0 auto;\" src=\"https://github.com/Rh-Hor/Exp_Dec-2025/blob/main/2-most.png?raw=true\"></div><center>Boris se dívá na boxy a říká:</p> (<b>Věta A:</b>) <i>Většina hvězd je v pravém boxu.</i></p><p> </p> Boris pak přemýšlí, zda: <p> (<b>Věta B:</b>) <i>V pravém boxu je více hvězd než v levém boxu.</i></p></center>"}, as: ["Pravdivost Borisovy věty A zaručuje pravdivost věty B", "Pravdivost Borisovy věty A nezaručuje pravdivost věty B."], presentAsScale: false, leftComment: null, rightComment: null}],
 ["second-filler-12good", aj, {s: {html: "<b>Kontext:</b> Klára rozmístila tvary do obou boxů. Pak přichází Boris.<div style=\"text-align:center;\"><img style=\"display:block;max-width:400px;max-height:300px;width:auto;height:auto;margin:0 auto;\" src=\"https://github.com/Rh-Hor/Exp_Dec-2025/blob/main/3-some.png?raw=true\"></div><center>Boris se dívá na boxy a říká:</p> (<b>Věta A:</b>) <i>Některé trojúhelníky jsou v levém boxu.</i></p><p> </p> Boris pak přemýšlí, zda: <p> (<b>Věta B:</b>) <i>Aspoň jeden trojúhelník je v levém boxu.</i></p></center>"}, as: ["Pravdivost Borisovy věty A zaručuje pravdivost věty B", "Pravdivost Borisovy věty A nezaručuje pravdivost věty B."], presentAsScale: false, leftComment: null, rightComment: null}],
@@ -263,3 +216,5 @@ var items = [ ["sep", "Separator", { }],
 ["second-filler-18good", aj, {s: {html: "<b>Kontext:</b> Klára rozmístila tvary do obou boxů. Pak přichází Boris.<div style=\"text-align:center;\"><img style=\"display:block;max-width:400px;max-height:300px;width:auto;height:auto;margin:0 auto;\" src=\"https://github.com/Rh-Hor/Exp_Dec-2025/blob/main/9-some.png?raw=true\"></div><center>Boris se dívá na boxy a říká:</p> (<b>Věta A:</b>) <i>Některá srdce jsou v levém boxu.</i></p><p> </p> Boris pak přemýšlí, zda: <p> (<b>Věta B:</b>) <i>Aspoň jeden tvar je v levém boxu.</i></p></center>"}, as: ["Pravdivost Borisovy věty A zaručuje pravdivost věty B", "Pravdivost Borisovy věty A nezaručuje pravdivost věty B."], presentAsScale: false, leftComment: null, rightComment: null}],
 
 ];
+
+
