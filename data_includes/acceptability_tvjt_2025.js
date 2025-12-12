@@ -69,6 +69,42 @@ var items = [ ["sep", "Separator", { }],
 [["first-item09-acc-most", 9], aj, {s: "Většina děvčat se sebemenší bolestí v srdci zkusila někdy napsat dojemnou báseň."}],
 [["first-item09-acc-some", 9], aj, {s: "Některá děvčata se sebemenší bolestí v srdci zkusila někdy napsat dojemnou báseň."}],
 
+[["first-item01-acc-alla", 1], aj, {s: "Všichni návštěvníci se sebemenším zájmem o archeologii zvládli tento exponát hned poznat."}],
+[["first-item01-acc-mosta", 1], aj, {s: "Většina návštěvníků se sebemenším zájmem o archeologii zvládla tento exponát hned poznat."}],
+[["first-item01-acc-somea", 1], aj, {s: "Někteří návštěvníci se sebemenším zájmem o archeologii zvládli tento exponát hned poznat."}],
+
+[["first-item02-acc-alla", 2], aj, {s: "Všechny zákaznice se sebemenší alergií na odlakovač musely ze salonu preventivně odejít."}],
+[["first-item02-acc-mosta", 2], aj, {s: "Většina zákaznic se sebemenší alergií na odlakovač musela ze salonu preventivně odejít."}],
+[["first-item02-acc-somea", 2], aj, {s: "Některé zákaznice se sebemenší alergií na odlakovač musely ze salonu preventivně odejít."}],
+
+[["first-item03-acc-alla", 3], aj, {s: "Všichni občané se sebemenší vírou v Boha chtěli nalezenému dítěti vystrojit křest."}],
+[["first-item03-acc-mosta", 3], aj, {s: "Většina občanů se sebemenší vírou v Boha chtěla nalezenému dítěti vystrojit křest."}],
+[["first-item03-acc-somea", 3], aj, {s: "Někteří občané se sebemenší vírou v Boha chtěli nalezenému dítěti vystrojit křest."}],
+
+[["first-item04-acc-alla", 4], aj, {s: "Všechny krávy se sebemenším podezřením na slintavku dostaly kvůli nařízení smrtící ránu."}],
+[["first-item04-acc-mosta", 4], aj, {s: "Většina krav se sebemenším podezřením na slintavku dostala kvůli nařízení smrtící ránu."}],
+[["first-item04-acc-somea", 4], aj, {s: "Některé krávy se sebemenším podezřením na slintavku dostaly kvůli nařízení smrtící ránu."}],
+
+[["first-item05-acc-alla", 5], aj, {s: "Všechny matky se sebemenším problémem s drogami podstoupily velmi přísnou inspekci domácnosti."}],
+[["first-item05-acc-mosta", 5], aj, {s: "Většina matek se sebemenším problémem s drogami podstoupila velmi přísnou inspekci domácnosti."}],
+[["first-item05-acc-somea", 5], aj, {s: "Některé matky se sebemenším problémem s drogami podstoupily velmi přísnou inspekci domácnosti."}],
+
+[["first-item06-acc-alla", 6], aj, {s: "Všechny produkty se sebemenší závadou na obalu selhaly v testu zdravotní bezpečnosti."}],
+[["first-item06-acc-mosta", 6], aj, {s: "Většina produktů se sebemenší závadou na obalu selhala v testu zdravotní bezpečnosti."}],
+[["first-item06-acc-somea", 6], aj, {s: "Některé produkty se sebemenší závadou na obalu selhaly v testu zdravotní bezpečnosti."}],
+
+[["first-item07-acc-alla", 7], aj, {s: "Všechny domy se sebemenší nerovností ve zdech riskovaly poškození v případě vichřice."}],
+[["first-item07-acc-mosta", 7], aj, {s: "Většina domů se sebemenší nerovností ve zdech riskovala poškození v případě vichřice."}],
+[["first-item07-acc-somea", 7], aj, {s: "Některé domy se sebemenší nerovností ve zdech riskovaly poškození v případě vichřice."}],
+
+[["first-item08-acc-alla", 8], aj, {s: "Všechna hnutí se sebemenší inklinací ke komunismu čelila odsouzení ze strany společnosti."}],
+[["first-item08-acc-mosta", 8], aj, {s: "Většina hnutí se sebemenší inklinací ke komunismu čelila odsouzení ze strany společnosti."}],
+[["first-item08-acc-somea", 8], aj, {s: "Některá hnutí se sebemenší inklinací ke komunismu čelila odsouzení ze strany společnosti."}],
+
+[["first-item09-acc-alla", 9], aj, {s: "Všechna děvčata se sebemenší bolestí v srdci zkusila někdy napsat dojemnou báseň."}],
+[["first-item09-acc-mosta", 9], aj, {s: "Většina děvčat se sebemenší bolestí v srdci zkusila někdy napsat dojemnou báseň."}],
+[["first-item09-acc-somea", 9], aj, {s: "Některá děvčata se sebemenší bolestí v srdci zkusila někdy napsat dojemnou báseň."}],
+
 /* vyhozeno:
 [["first-item16-acc-all", 16], aj, {s: "Všechny političky se sebemenším zájmem o rovnoprávnost prosazovaly potrestání jedné konkrétní osoby."}],
 [["first-item16-acc-most", 16], aj, {s: "Většina političek se sebemenším zájmem o rovnoprávnost prosazovala potrestání jedné konkrétní osoby."}],
