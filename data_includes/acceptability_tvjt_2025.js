@@ -1,7 +1,7 @@
 /* var shuffleSequence = seq("intro", sepWith("sep",  seq("practice")), "practiceover", sepWith("sep", rshuffle(startsWith("first-item"), startsWith("first-filler"))), "practice-two-before", seq("practice-two"), "practice-two-over", sepWith("sep", rshuffle(startsWith("second-item"), startsWith("second-filler"))));
 */
 
-var shuffleSequence = seq(startsWith("first-item1"));
+var shuffleSequence = seq(startsWith("first-item"));
 
 var continueMessage = ["Klikni zde"];
 
@@ -126,7 +126,7 @@ var items = [ ["sep", "Separator", { }],
 */
 
 
-
+/*
 [["second-item-01-UE-all", 1], aj, {s: {html: "<b>Kontext:</b> Klára rozmístila tvary do obou boxů. Pak přichází Boris.<div style=\"text-align:center;\"><table><img style=\"display:block;max-width:400px;max-height:300px;width:auto;height:auto;margin:0 auto;\" src=\"https://github.com/Rh-Hor/Exp_Dec-2025/blob/main/1-all.png?raw=true\"></table</div><center>Boris se dívá na boxy a říká:</p> <b>Věta A:</b> <i>Všechny trojúhelníky jsou v levém boxu.</i></p><p> </p> Boris pak přemýšlí, zda: <p> <b>Věta B:</b> <i>Všechny tvary jsou v levém boxu.</i></p> </center>"}}],
 
 [["second-item-01-UE-most", 1], aj, {s: {html: "<b>Kontext:</b> Klára rozmístila tvary do obou boxů. Pak přichází Boris.<div style=\"text-align:center;\"><table><img style=\"display:block;max-width:400px;max-height:300px;width:auto;height:auto;margin:0 auto;\" src=\"https://github.com/Rh-Hor/Exp_Dec-2025/blob/main/1-most.png?raw=true\"></table></div><center>Boris se dívá na boxy a říká:</p> <b>Věta A:</b> <i>Většina trojúhelníků je v levém boxu.</i></p><p> </p> Boris pak přemýšlí, zda: <p> <b>Věta B:</b> <i>Většina tvarů je v levém boxu. </i></p> </center>"}}],
