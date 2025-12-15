@@ -1,7 +1,7 @@
 /* var shuffleSequence = seq("intro", sepWith("sep",  seq("practice")), "practiceover", sepWith("sep", rshuffle(startsWith("first-item"), startsWith("first-filler"))), "practice-two-before", seq("practice-two"), "practice-two-over", sepWith("sep", rshuffle(startsWith("second-item"), startsWith("second-filler"))));
 */
 
-var shuffleSequence = seq(startsWith("first-item"));
+var shuffleSequence = seq(startsWith("second-item"));
 
 var continueMessage = ["Klikni zde"];
 
@@ -112,7 +112,7 @@ var items = [ ["sep", "Separator", { }],
 ["first-filler08-bad", aj, {s: "Rostliny s dlouhými kořeny sobě špatně vykopávají ze země." }],
 ["first-filler09-bad", aj, {s: "Ten žádný balvan, který nám stojí v cestě, se nám podařilo odvalit a mohli jsme pokračovat."}],
 
-/*
+
 
 ["practice-two-before", "Message", {continueMessage: "Klikněte zde pro pokračování experimentu", html: ["div", ["p", "Zde končí první část experimentu. Klikněte níže pro vysvětlení druhé části experimentu."]]}],
 
@@ -123,10 +123,10 @@ var items = [ ["sep", "Separator", { }],
           ["practice-two-over", "Message", {continueMessage: "Klikněte zde pro pokračování experimentu", html: ["div", ["p", "Zde končí přípravná část experimentu. Klikněte níže pro vstup do experimentu."]]}],
 
 
-*/
 
 
-/*
+
+
 [["second-item-01-UE-all", 1], aj, {s: {html: "<b>Kontext:</b> Klára rozmístila tvary do obou boxů. Pak přichází Boris.<div style=\"text-align:center;\"><table><img style=\"display:block;max-width:400px;max-height:300px;width:auto;height:auto;margin:0 auto;\" src=\"https://github.com/Rh-Hor/Exp_Dec-2025/blob/main/1-all.png?raw=true\"></table</div><center>Boris se dívá na boxy a říká:</p> <b>Věta A:</b> <i>Všechny trojúhelníky jsou v levém boxu.</i></p><p> </p> Boris pak přemýšlí, zda: <p> <b>Věta B:</b> <i>Všechny tvary jsou v levém boxu.</i></p> </center>"}}],
 
 [["second-item-01-UE-most", 1], aj, {s: {html: "<b>Kontext:</b> Klára rozmístila tvary do obou boxů. Pak přichází Boris.<div style=\"text-align:center;\"><table><img style=\"display:block;max-width:400px;max-height:300px;width:auto;height:auto;margin:0 auto;\" src=\"https://github.com/Rh-Hor/Exp_Dec-2025/blob/main/1-most.png?raw=true\"></table></div><center>Boris se dívá na boxy a říká:</p> <b>Věta A:</b> <i>Většina trojúhelníků je v levém boxu.</i></p><p> </p> Boris pak přemýšlí, zda: <p> <b>Věta B:</b> <i>Většina tvarů je v levém boxu. </i></p> </center>"}}],
@@ -142,7 +142,7 @@ var items = [ ["sep", "Separator", { }],
 [["second-item-01-DE-some", 1], aj, {s: {html: "<b>Kontext:</b> Klára rozmístila tvary do obou boxů. Pak přichází Boris.<div style=\"text-align:center;\"><table><img style=\"display:block;max-width:400px;max-height:300px;width:auto;height:auto;margin:0 auto;\" src=\"https://github.com/Rh-Hor/Exp_Dec-2025/blob/main/1-some.png?raw=true\"></table></div><center>Boris se dívá na boxy a říká:</p> <b>Věta A:</b> <i>Některé trojúhelníky jsou v levém boxu.</i></p><p> </p> Boris pak přemýšlí, zda: <p> <b>Věta B:</b> <i>Některé červené trojúhelníky jsou v levém boxu.</i></p></center>"}}],
 
 
-/*
+
 
 [["second-item-01-UE-all", 1], aj, {s: {html: "<b>Kontext:</b> Klára rozmístila tvary do obou boxů. Pak přichází Boris.<div style=\"text-align:center;\"><img style=\"display:block;max-width:400px;max-height:300px;width:auto;height:auto;margin:0 auto;\" src=\"https://github.com/Rh-Hor/Exp_Dec-2025/blob/main/1-all.png?raw=true\"></div><center>Boris se dívá na boxy a říká:</p> <b>Věta A:</b> <i>Všechny trojúhelníky jsou v levém boxu.</i></p><p> </p> Boris pak přemýšlí, zda: <p> <b>Věta B:</b> <i>Všechny tvary jsou v levém boxu.</i></p> </center>"}, as: ["Pravdivost Borisovy věty A zaručuje pravdivost věty B.", "Pravdivost Borisovy věty A nezaručuje pravdivost věty B."], presentAsScale: false, leftComment: null, rightComment: null}],
 [["second-item-01-UE-most", 1], aj, {s: {html: "<b>Kontext:</b> Klára rozmístila tvary do obou boxů. Pak přichází Boris.<div style=\"text-align:center;\"><img style=\"display:block;max-width:400px;max-height:300px;width:auto;height:auto;margin:0 auto;\" src=\"https://github.com/Rh-Hor/Exp_Dec-2025/blob/main/1-most.png?raw=true\"></div><center>Boris se dívá na boxy a říká:</p> <b>Věta A:</b> <i>Většina trojúhelníků je v levém boxu.</i></p><p> </p> Boris pak přemýšlí, zda: <p> <b>Věta B:</b> <i>Většina tvarů je v levém boxu. </i></p> </center>"}, as: ["Pravdivost Borisovy věty A zaručuje pravdivost věty B.", "Pravdivost Borisovy věty A nezaručuje pravdivost věty B."], presentAsScale: false, leftComment: null, rightComment: null}],
@@ -273,8 +273,8 @@ var items = [ ["sep", "Separator", { }],
 [["second-item-18-DE-most", 18], aj, {s: {html: "<b>Kontext:</b> Klára rozmístila tvary do obou boxů. Pak přichází Boris.<div style=\"text-align:center;\"><img style=\"display:block;max-width:400px;max-height:300px;width:auto;height:auto;margin:0 auto;\" src=\"https://github.com/Rh-Hor/Exp_Dec-2025/blob/main/18-most.png?raw=true\"></div><center>Boris se dívá na boxy a říká:</p> <b>Věta A:</b> <i>Většina hvězd je v levém boxu.</i></p><p> </p> Boris pak přemýšlí, zda: <p> <b>Věta B:</b> <i>Většina zelených hvězd je v levém boxu. </i></p> </center>"}, as: ["Pravdivost Borisovy věty A zaručuje pravdivost věty B.", "Pravdivost Borisovy věty A nezaručuje pravdivost věty B."], presentAsScale: false, leftComment: null, rightComment: null}],
 [["second-item-18-DE-some", 18], aj, {s: {html: "<b>Kontext:</b> Klára rozmístila tvary do obou boxů. Pak přichází Boris.<div style=\"text-align:center;\"><img style=\"display:block;max-width:400px;max-height:300px;width:auto;height:auto;margin:0 auto;\" src=\"https://github.com/Rh-Hor/Exp_Dec-2025/blob/main/18-some.png?raw=true\"></div><center>Boris se dívá na boxy a říká:</p> <b>Věta A:</b> <i>Některé hvězdy jsou v levém boxu.</i></p><p> </p> Boris pak přemýšlí, zda: <p> <b>Věta B:</b> <i>Některé zelené hvězdy jsou v levém boxu.</i></p></center>"}, as: ["Pravdivost Borisovy věty A zaručuje pravdivost věty B.", "Pravdivost Borisovy věty A nezaručuje pravdivost věty B."], presentAsScale: false, leftComment: null, rightComment: null}],
 
-/*
 
+/*
 ["second-filler-01bad", aj, {s: {html: "<b>Kontext:</b> Klára rozmístila tvary do obou boxů. Pak přichází Boris.<div style=\"text-align:center;\"><img style=\"display:block;max-width:400px;max-height:300px;width:auto;height:auto;margin:0 auto;\" src=\"https://github.com/Rh-Hor/Exp_Dec-2025/blob/main/1-mixed.png?raw=true\"></div><center>Boris se dívá na boxy a říká:</p> <b>Věta A:</b> <i>Aspoň polovina tvarů je v levém boxu.</i></p><p> </p> Boris pak přemýšlí, zda: <p> <b>Věta B:</b> <i>Většina trojúhelníků je v pravém boxu.</i></p></center>"}, as: ["Pravdivost Borisovy věty A zaručuje pravdivost věty B.", "Pravdivost Borisovy věty A nezaručuje pravdivost věty B."], presentAsScale: false, leftComment: null, rightComment: null}],
 ["second-filler-02bad", aj, {s: {html: "<b>Kontext:</b> Klára rozmístila tvary do obou boxů. Pak přichází Boris.<div style=\"text-align:center;\"><img style=\"display:block;max-width:400px;max-height:300px;width:auto;height:auto;margin:0 auto;\" src=\"https://github.com/Rh-Hor/Exp_Dec-2025/blob/main/2-mixed.png?raw=true\"></div><center>Boris se dívá na boxy a říká:</p> <b>Věta A:</b> <i>Některé obdélníky jsou v pravém boxu.</i></p><p> </p> Boris pak přemýšlí, zda: <p> <b>Věta B:</b> <i>Přesně dva modré kruhy jsou v levém boxu.</i></p></center>"}, as: ["Pravdivost Borisovy věty A zaručuje pravdivost věty B.", "Pravdivost Borisovy věty A nezaručuje pravdivost věty B."], presentAsScale: false, leftComment: null, rightComment: null}],
 ["second-filler-03bad", aj, {s: {html: "<b>Kontext:</b> Klára rozmístila tvary do obou boxů. Pak přichází Boris.<div style=\"text-align:center;\"><img style=\"display:block;max-width:400px;max-height:300px;width:auto;height:auto;margin:0 auto;\" src=\"https://github.com/Rh-Hor/Exp_Dec-2025/blob/main/3-mixed.png?raw=true\"></div><center>Boris se dívá na boxy a říká:</p> <b>Věta A:</b> <i>Některé trojúhelníky jsou v levém boxu.</i></p><p> </p> Boris pak přemýšlí, zda: <p> <b>Věta B:</b> <i>V levém boxu je více tvarů než v pravém boxu.</i></p></center>"}, as: ["Pravdivost Borisovy věty A zaručuje pravdivost věty B.", "Pravdivost Borisovy věty A nezaručuje pravdivost věty B."], presentAsScale: false, leftComment: null, rightComment: null}],
