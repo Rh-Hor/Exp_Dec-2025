@@ -72,6 +72,8 @@ var items = [ ["sep", "Separator", { }],
 [["first-item09-most", 9], aj, {s: "Většina děvčat se sebemenší bolestí v srdci zkusila někdy napsat dojemnou báseň."}],
 [["first-item09-some", 9], aj, {s: "Některá děvčata se sebemenší bolestí v srdci zkusila někdy napsat dojemnou báseň."}],
 
+/*
+
 [["first-item10-all", 10], aj, {s: "Všechny političky se sebemenším zájmem o rovnoprávnost prosazovaly potrestání jedné konkrétní osoby."}],
 [["first-item10-most", 10], aj, {s: "Většina političek se sebemenším zájmem o rovnoprávnost prosazovala potrestání jedné konkrétní osoby."}],
 [["first-item10-some", 10], aj, {s: "Některé političky se sebemenším zájmem o rovnoprávnost prosazovaly potrestání jedné konkrétní osoby."}],
