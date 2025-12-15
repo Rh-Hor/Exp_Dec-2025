@@ -72,11 +72,6 @@ var items = [ ["sep", "Separator", { }],
 [["first-item09-most", 9], aj, {s: "Většina děvčat se sebemenší bolestí v srdci zkusila někdy napsat dojemnou báseň."}],
 [["first-item09-some", 9], aj, {s: "Některá děvčata se sebemenší bolestí v srdci zkusila někdy napsat dojemnou báseň."}],
 
-
-
-/* vyhozeno:
-
-
 [["first-item10-all", 10], aj, {s: "Všechny političky se sebemenším zájmem o rovnoprávnost prosazovaly potrestání jedné konkrétní osoby."}],
 [["first-item10-most", 10], aj, {s: "Většina političek se sebemenším zájmem o rovnoprávnost prosazovala potrestání jedné konkrétní osoby."}],
 [["first-item10-some", 10], aj, {s: "Některé političky se sebemenším zájmem o rovnoprávnost prosazovaly potrestání jedné konkrétní osoby."}],
@@ -99,7 +94,7 @@ var items = [ ["sep", "Separator", { }],
 
 [["first-item15-all", 15], aj, {s: "Všechny děti se sebemenší úctou k seniorům navštívily během prázdnin domov důchodců."}],
 [["first-item15-most", 15], aj, {s: "Většina dětí se sebemenší úctou k seniorům navštívila během prázdnin domov důchodců."}],
-[["first-item15-some", 15], aj, {s: "Některé děti se sebemenší úctou k seniorům navštívily během prázdnin domov důchodců."}],
+[["first-item15-some", 15], aj, {s: "Některé děti se sebemenší úctou k seniorům navštívily během prázdnin domov důchodců."}], 
 ["first-filler1-good", aj, {s: "Letošní pořadatelé festivalu počítali s menší účastí a proto snížili rozpočet." }],
 
 
@@ -287,3 +282,4 @@ var items = [ ["sep", "Separator", { }],
 */
 
 ];
+
