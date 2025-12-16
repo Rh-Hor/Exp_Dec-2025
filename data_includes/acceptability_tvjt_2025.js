@@ -1,3 +1,63 @@
+/*
+BRATR STVOŘIL A JEDE MU:
+
+var shuffleSequence = seq(sepWith('sep', rshuffle(startsWith('second-item'), startsWith('second-filler'))))
+
+var continueMessage = ['Klikni zde']
+
+var aj = 'AcceptabilityJudgment'
+
+var q = 'Question'
+
+var completionMessage = '[Zadané odpovědi jsou odeslány na server. Děkujeme za spolupráci!]'
+
+var ms = 'Message'
+
+var defaults = [
+  'Separator',
+  {
+    transfer: 800,
+    normalMessage: 'Počkejte prosím na další položku v experimentu.',
+    errorMessage: 'Špatně. Počkejte prosím na další položku v experimentu.',
+  },
+  'AcceptabilityJudgment',
+  {
+    as: ['1', '2', '3', '4', '5'],
+    presentAsScale: true,
+    leftComment: '(absolutně nepřijatelná věta)',
+    rightComment: '(věta je naprosto v pořádku)',
+  },
+  'Message',
+  { hideProgressBar: true, transfer: 'click' },
+]
+
+var progressBarText = ''
+
+var items = [['sep', 'Separator', {}]]
+
+for (let i = 1; i <= 18; i++) {
+  for (const j of ['UE', 'DE']) {
+    for (const k of ['all', 'most', 'some']) {
+      items.push([
+        [`second-item-${String(i).padStart(2, '0')}-${j}-${k}`, i],
+        'AcceptabilityJudgment',
+        { s: { html: '<b>item</b>' }, as: ['ano', 'ne'] },
+      ])
+    }
+  }
+}
+
+for (let j = 1; j <= 18; j++) {
+  items.push([
+    `second-filler-${String(j).padStart(2, '0')}`,
+    'AcceptabilityJudgment',
+    { s: { html: '<b>filler</b>' }, as: ['ano', 'ne'] },
+  ])
+}
+
+
+*/
+
 /* var shuffleSequence = seq("intro", sepWith("sep",  seq("practice")), "practiceover", sepWith("sep", rshuffle(startsWith("first-item"), startsWith("first-filler"))), "practice-two-before", seq("practice-two"), "practice-two-over", sepWith("sep", rshuffle(startsWith("second-item"), startsWith("second-filler"))));
 */
 
