@@ -54,7 +54,7 @@ var items = [
 
 
 
-  ["practice", aj, { s: { html: "<p><b>Nacházíte se v přípravné fázi hodnoticí části experimentu. Přečtěte si větu a ohodnoťte, jak přirozeně vám zní.</p></b><p>Pavel uviděl Marušku.</p><p><i><b>Komentář:</b>Tato věta je v pořádku. Pokud souhlasíte, vyberte jednu z možností v pravém konci škály (nejspíš 5).</i></p>" } }],
+  ["practice", aj, { s: { html: "<p><b>Nacházíte se v přípravné fázi hodnoticí části experimentu. Přečtěte si větu a ohodnoťte, jak přirozeně vám zní.</p></b><p>Pavel uviděl Marušku.</p><p><b>Komentář:</b> Tato věta je v pořádku. Pokud souhlasíte, vyberte jednu z možností v pravém konci škály (nejspíš 5).</p>" } }],
   ["practice", aj, { s: { html: "<p><b>Nacházíte se v přípravné fázi hodnoticí části experimentu. Přečtěte si větu a ohodnoťte, jak přirozeně vám zní.</p></b>Ačkoliv byla Marie unavená, navštívila včera ještě vedoucího hasičské jednotky Tříbětice.</p><p><b>Komentář:</b> Tato věta je v pořádku. Pokud souhlasíte, vyberte jako odpověď jednu z možností v pravém konci škály (nejspíš 5).</p>" } }],
   ["practice", aj, { s: { html: "<p><b>Nacházíte se v přípravné fázi hodnoticí části experimentu. Přečtěte si větu a ohodnoťte, jak přirozeně vám zní.</p></b>Byla Marie unavená ačkoliv, navštívila včera ještě ho v Tříběticích.</p><p><b>Komentář:</b> Tato věta nezní přirozeně: spíše by ji použil cizinec, který se česky teprve učí, než rodilý mluvčí.<br>Pokud souhlasíte, vyberte jako odpověď jednu z možností na levém konci škály (nejspíš 1).</p>" } }],
 
