@@ -54,8 +54,8 @@ var items = [
 
 
 
-  ["practice", aj, { s: { html: "<p><b>Nacházíte se v přípravné fázi hodnoticí části experimentu. Přečtěte si větu a ohodnoťte, jak přirozeně vám zní.</p></b><p>Pavel uviděl Marušku.</p><p><b>Komentář:</b> Tato věta je v pořádku. Pokud souhlasíte, vyberte jednu z možností v pravém konci škály (nejspíš 5).</p>" } }],
-  ["practice", aj, { s: { html: "<p><b>Nacházíte se v přípravné fázi hodnoticí části experimentu. Přečtěte si větu a ohodnoťte, jak přirozeně vám zní.</p></b>Ačkoliv byla Marie unavená, navštívila včera ještě vedoucího hasičské jednotky Tříbětice.</p><p><b>Komentář:</b> Tato věta je v pořádku. Pokud souhlasíte, vyberte jako odpověď jednu z možností v pravém konci škály (nejspíš 5).</p>" } }],
+  ["practice", aj, { s: { html: "<p><b>Nacházíte se v přípravné fázi hodnoticí části experimentu. Přečtěte si větu a ohodnoťte, jak přirozeně vám zní.</p></b><p>Pavel uviděl Marušku.</p><p><b>Komentář:</b> Tato věta je v pořádku. Pokud souhlasíte, vyberte jednu z možností na pravém konci škály (nejspíš 5).</p>" } }],
+  ["practice", aj, { s: { html: "<p><b>Nacházíte se v přípravné fázi hodnoticí části experimentu. Přečtěte si větu a ohodnoťte, jak přirozeně vám zní.</p></b>Ačkoliv byla Marie unavená, navštívila včera ještě vedoucího hasičské jednotky Tříbětice.</p><p><b>Komentář:</b> Tato věta je v pořádku. Pokud souhlasíte, vyberte jako odpověď jednu z možností na pravém konci škály (nejspíš 5).</p>" } }],
   ["practice", aj, { s: { html: "<p><b>Nacházíte se v přípravné fázi hodnoticí části experimentu. Přečtěte si větu a ohodnoťte, jak přirozeně vám zní.</p></b>Byla Marie unavená ačkoliv, navštívila včera ještě ho v Tříběticích.</p><p><b>Komentář:</b> Tato věta nezní přirozeně: spíše by ji použil cizinec, který se česky teprve učí, než rodilý mluvčí.<br>Pokud souhlasíte, vyberte jako odpověď jednu z možností na levém konci škály (nejspíš 1).</p>" } }],
 
   ["practiceover", "Message", { continueMessage: "Klikněte zde pro pokračování experimentu", html: ["div", ["p", "Zde končí přípravná část experimentu. Klikněte níže pro vstup do samotného testování."]]}],
@@ -270,4 +270,5 @@ var items = [
   ["second-filler-18-good", aj, { s: { html: "<b>Kontext:</b> Klára rozmístila tvary do obou boxů. Pak přichází Boris. <img style=\"display:block;max-width:400px;max-height:300px;width:auto;height:auto;margin:0 auto;\" src=\"https://github.com/Rh-Hor/Exp_Dec-2025/blob/main/18-mixed.png?raw=true\"> <center>Boris se dívá na boxy a říká:</p> <b>Věta A:</b> <i>Aspoň polovina tvarů je v levém boxu.</i></p><p> </p> Boris pak přemýšlí, zda: <p> <b>Věta B:</b> <i>Aspoň šest tvarů je v levém boxu.</i></p></center>"}, as: ["Pravdivost Borisovy věty A zaručuje, že i věta B je pravdivá.", "Pravdivost Borisovy věty A nezaručuje, že i věta B je pravdivá."], presentAsScale: false, leftComment: null, rightComment: null }],
 
 ];
+
 
